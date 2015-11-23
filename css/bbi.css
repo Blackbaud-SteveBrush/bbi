@@ -1,0 +1,109 @@
+.js-part-label {
+	background:#333;
+	border:1px solid #000;
+	border-radius:5px;
+	padding:8px 12px 8px 36px;
+	color:#fff;
+	margin:0 0 10px;
+}
+.bbi-script {
+	display: none;
+}
+.bbi-pixel {
+	position: absolute;
+	left: -500000px;
+	visibility: hidden;
+}
+#bbi-message {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	color: #31708f;
+	margin:15px;
+	font-size:14px;
+	line-height:1.34;
+}
+	#bbi-message .bbi-message-title {
+		font-size:16px;
+		text-transform:none;
+		font-weight:bold;
+		margin:0 0 8px;
+		line-height:1.34;
+		color: #31708f;
+	}
+	#bbi-message .bbi-message-list {
+		list-style:none;
+		margin:0;
+		padding:0 0 10px;
+	}
+	#bbi-message .bbi-message-list-item {
+		display:block;
+		padding:0 0 10px;
+	}
+	#bbi-message .bbi-message-helplet {
+		font-style:italic;
+		padding:0;
+		margin:0;
+	}
+
+/* OLX Forms Styles */
+.bbi-olx-form-wrapper {}
+.bbi-olx-form {}
+.bbi-olx-message {}
+.bbi-off {
+    display: none !important;
+}
+
+/* DEBUG STYLES */
+/*
+body.isDebug:before {
+	content: "(max-width: 58.6875em) ok?";
+	font-size: 1.1em;
+	line-height: 1;
+	font-weight: bold;
+	padding: .5em;
+	background-color: rgba(163, 41, 43, .7);
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+/* Landscape phones and down
+@media only screen and (max-width: 767px) {
+	body.isDebug:before { content: "(max-width: 767px) XS"; background-color: rgba(102, 163, 41, .7);
+
+	}
+}
+
+/* Landscape phone to portrait tablet
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body.isDebug:before { content: "(min-width: 768px) and (max-width: 991px) SM"; background-color: rgba(102, 41, 163, .7);
+
+	}
+}
+
+/* Portrait tablet to landscape and desktop
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	body.isDebug:before { content: "(min-width: 992px) and (max-width: 1199px) MD"; background-color: rgba(163, 41, 43, .7);
+
+	}
+}
+
+/* Large desktop
+@media only screen and (min-width: 1200px) {
+	body.isDebug:before { content: "(min-width: 1200px) LG"; background-color: rgba(102 163 41, .7);
+
+	}
+}
+.isDebug [class*="col-"] {
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+*/
